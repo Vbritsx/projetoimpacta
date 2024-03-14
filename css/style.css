@@ -72,3 +72,11 @@
     /* Centralizar verticalmente */
     font-size: 55px;
 }
+
+.logo img {
+    width: 80px;
+    height: 80px;
+
+    /* Defina a largura desejada para o logo */
+    /* Você também pode adicionar outras propriedades CSS, como altura, para manter a proporção */
+}
