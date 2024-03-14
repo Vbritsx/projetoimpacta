@@ -1,51 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <link rel="stylesheet" href="css/home.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <title>Estoque Inteligente</title>
     <style>
         body {
-            margin: 0;
-            padding: 0;
+            margin: 0px;
+            padding: 40px;
             font-family: Arial, sans-serif;
-        }
-        nav {
             background-color: #fbc334;
-            padding: 20px;
-            text-align: center;
+            /* Definindo a cor de fundo */
         }
+
+        nav {
+            background-color: #171b22;
+            /* Cor de fundo da nav */
+            padding: 20px 10px;
+            /* Reduzindo o padding em cima e em baixo */
+            margin-top: 10px;
+            /* Descendo a nav em 10px */
+        }
+
         nav ul {
             list-style: none;
             padding: 0;
+            text-align: center;
+            margin-top: 0;
+            /* Removendo a margem superior */
         }
+
         nav ul li {
-            display: inline-block;
+            display: inline;
             margin-right: 20px;
+            margin-top: -5px;
+            /* Movendo os textos para cima */
         }
+
         nav ul li:last-child {
             margin-right: 0;
         }
+
         nav ul li a {
             text-decoration: none;
-            color: black;
+            color: white;
+            /* Mudando a cor do texto para branco */
             font-size: 18px;
+        }
+
+        .square-section {
+            width: 1840px;
+            /* Largura da seção */
+            height: 500px;
+            /* Altura da seção */
+            background-color: #171b22;
+            /* Cor de fundo da seção */
+            margin-top: 00px;
+            /* Espaçamento acima da seção */
+            color: #30323e;
+            /* Cor do texto */
+            text-align: center;
+            /* Alinhar o texto ao centro */
+            line-height: 500px;
+            /* Centralizar verticalmente */
+            font-size: 55px;
+
         }
     </style>
 </head>
+
 <body>
+    <div class="center">
+        <div class="logo"><img src="assets/estoqueinteligente.png" /> </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </nav>
 
-<nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Produtos</a></li>
-        <li><a href="#">Quem somos</a></li>
-        <li><a href="#">Sair</a></li>
-    </ul>
-</nav>
+    </div>
 
-<!-- Conteúdo da página aqui -->
+
+    <section class="square-section">
+        Estoque Inteligente
+    </section>
 
 </body>
+
 </html>
