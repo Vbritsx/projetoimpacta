@@ -9,10 +9,66 @@
     flex-wrap: wrap;
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 2%;
-
+    padding: 0;
 }
 
-.logo {
-    width: 50%;
+.body {
+    margin: 0px;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    background-color: #fbc334;
+    /* Definindo a cor de fundo */
+}
+
+.nav {
+    background-color: #171b22;
+    /* Cor de fundo da nav */
+    padding: 20px 10px;
+    /* Reduzindo o padding em cima e em baixo */
+    margin-top: 10px;
+    /* Descendo a nav em 10px */
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 0;
+    /* Removendo a margem superior */
+}
+
+.nav ul li {
+    display: inline;
+    margin-right: 20px;
+    margin-top: -5px;
+    /* Movendo os textos para cima */
+}
+
+.nav ul li:last-child {
+    margin-right: 0;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    /* Mudando a cor do texto para branco */
+    font-size: 18px;
+}
+
+.square-section {
+    width: 1840px;
+    /* Largura da seção */
+    height: 500px;
+    /* Altura da seção */
+    background-color: #171b22;
+    /* Cor de fundo da seção */
+    margin-top: 00px;
+    /* Espaçamento acima da seção */
+    color: #30323e;
+    /* Cor do texto */
+    text-align: center;
+    /* Alinhar o texto ao centro */
+    line-height: 500px;
+    /* Centralizar verticalmente */
+    font-size: 55px;
 }
