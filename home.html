@@ -1,87 +1,182 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
-<head>
-    <link href="css/style.css" rel="stylesheet" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <title>Estoque Inteligente</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        body {
-            margin: 0px;
-            padding: 40px;
-            font-family: Arial, sans-serif;
-            background-color: #fbc334;
-            /* Definindo a cor de fundo */
-        }
+        <!-- Link para o Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
-        nav {
-            background-color: #171b22;
-            /* Cor de fundo da nav */
-            padding: 20px 10px;
-            /* Reduzindo o padding em cima e em baixo */
-            margin-top: 10px;
-            /* Descendo a nav em 10px */
-        }
+        <!-- link font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+            integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-            text-align: center;
-            margin-top: 0;
-            /* Removendo a margem superior */
-        }
+        <!-- link para a CSS -->
+        <link rel="stylesheet" href="./css/styles.css">
 
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-            margin-top: -5px;
-            /* Movendo os textos para cima */
-        }
+        <title>Estoque Inteligente</title>
+    </head>
 
-        nav ul li:last-child {
-            margin-right: 0;
-        }
+    <body>
 
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-            /* Mudando a cor do texto para branco */
-            font-size: 18px;
-        }
+        <!-- header da página - imagem + título + menu navegação -->
+        <div class="header">
+            <!-- título --> 
+           <!--- <h1 class="header-title"><i class="fab fa-html5 header-logo"></i> Estoque Inteligente</h1> -->
 
-        .square-section {
-            width: 1840px;
-            /* Largura da seção */
-            height: 500px;
-            /* Altura da seção */
-            background-color: #171b22;
-            /* Cor de fundo da seção */
-            margin-top: 00px;
-            /* Espaçamento acima da seção */
-            font-size: 90px;
-        }
-    </style>
-</head>
+            <!-- menu -->
+            <nav class="menu">
+                <ul>
+                    <li class="menu-item"><a href="">Home</a></li>
+                    <li class="menu-item"><a href="#produtos">Produtos</a></li>
+                    <li class="menu-item"><a href="#estoque">Estoque</a></li>
+                    <li class="menu-item"><a href="#sair">Sair</a></li>
+                </ul>
+            </nav>            
+        </div>
+        <!-- fim header página -->
 
-<body>
-    <header>
-        <div class="logo"><img src="assets/estoqueinteligente.png" /> </div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Estoque</a></li>
-                <li><a href="#">Sair</a></li>
-            </ul>
-        </nav>
-    </header>
+        <!-- hero -->
+            <div class="hero">
+             <!--  <h2 class="hero-title">Projeto Faculdade Impacta.</h2> -->
+            </div>
+        <!--fim hero -->
 
-    <section class="square-section">
-        Estoque Inteligente
-    </section>
+        <!-- dentro da main fique o conteúdo principal da página - Por padrão cada página só pode ter uma main
+            entenda a main como uma div - só que por ter um  nome próprio - ela tem uma relevância maior - 
+            SEMÂNTICA
+        -->
+        <main class="wrapper">
+            <h2 class="wrapper-title" id="services">Quem somos ?</h2>
+            
+            <!-- services -->
+            <section class="services-container" >
+                
+                <!-- primeiro item -->
+                <div class="services-item">
+                    <i class="fas fa-car"></i>
+                    <h2 class="services-title">UI / UX</h2>
+                    <p class="services-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus facilis reprehenderit nesciunt sit eos omnis animi, veniam aliquid architecto quis!
+                    </p>
+                </div>
+                <!-- fim primeiro item -->
 
-</body>
+                <!-- segundo item -->
+                <div class="services-item">
+                    <i class="fas fa-car"></i>
+                    <h2 class="services-title">UI / UX</h2>
+                    <p class="services-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus facilis reprehenderit
+                        nesciunt sit eos omnis animi, veniam aliquid architecto quis!
+                    </p>
+                </div>
+                <!-- fim segundo item -->
+
+                <!-- terceiro item -->
+                <div class="services-item">
+                    <i class="fas fa-car"></i>
+                    <h2 class="services-title">UI / UX</h2>
+                    <p class="services-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus facilis reprehenderit
+                        nesciunt sit eos omnis animi, veniam aliquid architecto quis!
+                    </p>
+                </div>
+                <!-- fim terceiro item -->
+                
+                <!-- quarto item -->
+                <div class="services-item">
+                    <i class="fas fa-car"></i>
+                    <h2 class="services-title">UI / UX</h2>
+                    <p class="services-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus facilis reprehenderit
+                        nesciunt sit eos omnis animi, veniam aliquid architecto quis!
+                    </p>
+                </div>
+                <!-- fim quarto item -->
+
+                <!-- quinto item -->
+                <div class="services-item">
+                    <i class="fas fa-car"></i>
+                    <h2 class="services-title">UI / UX</h2>
+                    <p class="services-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus facilis reprehenderit
+                        nesciunt sit eos omnis animi, veniam aliquid architecto quis!
+                    </p>
+                </div>
+                <!-- fim quinto item -->
+
+                <!-- sexto item -->
+                <div class="services-item">
+                    <i class="fas fa-car"></i>
+                    <h2 class="services-title">UI / UX</h2>
+                    <p class="services-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus facilis reprehenderit
+                        nesciunt sit eos omnis animi, veniam aliquid architecto quis!
+                    </p>
+                </div>
+                <!-- fim sexto item -->            
+            </section>
+            <!-- fim services -->
+
+            <!-- contatos -->
+            <h2 class="wrapper-title">Contatos</h2>
+
+            <section class="portfolio" id="portfolio">
+                <figure class="portfolio-image rotation-left">
+                    <img src="./images/pexels-cottonbro-7437088.jpg" alt="Reunião do projeto">
+                    <figcaption>Projeto XPTO</figcaption>
+                </figure>
+
+                <figure class="portfolio-image rotation-right">
+                    <img src="./images/pexels-fauxels-3182774.jpg" alt="Reunião do projeto">
+                    <figcaption>Projeto XPTO</figcaption>
+                </figure>
+
+                <figure class="portfolio-image rotation-left">
+                    <img src="./images/pexels-fauxels-3183151.jpg" alt="Reunião do projeto">
+                    <figcaption>Projeto XPTO</figcaption>
+                </figure>
+
+                <figure class="portfolio-image rotation-right">
+                    <img src="./images/pexels-hasan-albari-1229861.jpg" alt="Reunião do projeto">
+                    <figcaption>Projeto XPTO</figcaption>
+                </figure>
+
+                <figure class="portfolio-image rotation-left">
+                    <img src="./images/pexels-lisa-811587.jpg" alt="Reunião do projeto">
+                    <figcaption>Projeto XPTO</figcaption>
+                </figure>
+
+                <figure class="portfolio-image rotation-right">
+                    <img src="./images/pexels-mikael-blomkvist-6476587.jpg" alt="Reunião do projeto">
+                    <figcaption>Projeto XPTO</figcaption>
+                </figure>
+
+                <figure class="portfolio-image rotation-left">
+                    <img src="./images/pexels-photomix-company-230544.jpg" alt="Reunião do projeto">
+                    <figcaption>Projeto XPTO</figcaption>
+                </figure>
+
+                <figure class="portfolio-image rotation-right">
+                    <img src="./images/pexels-tranmautritam-251225.jpg" alt="Reunião do projeto">
+                    <figcaption>Projeto XPTO</figcaption>
+                </figure>
+
+            </section>          
+
+
+        </main>
+
+
+        <!-- services -->
+
+
+
+    </body>
 
 </html>
