@@ -1,5 +1,5 @@
 /* variáveis em tudo na css */
-:root{
+:root {
     --text-light: #ffffff;
     --bg-primary: #000000;
 }
@@ -15,7 +15,7 @@
 
 html {
     /* transição para os links - NÃO FUNCIONA NO SAFARI */
-    scroll-behavior: smooth;    
+    scroll-behavior: smooth;
 }
 
 
@@ -43,9 +43,9 @@ body {
         Quando usamos row - justify-content alinha horizontalmente
     */
     display: flex;
-    align-items:center;
-    justify-content:center;
-    padding: 0 20px;    
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
 }
 
 .header-title {
@@ -55,7 +55,7 @@ body {
 }
 
 .header-logo {
-    color: #FBC334;   
+    color: #FBC334;
 }
 
 .menu ul {
@@ -101,6 +101,7 @@ body {
 .btn:hover {
     background-color: transparent;
 }
+
 /********************* fim do header ************************/
 
 /********************* hero *****************/
@@ -121,7 +122,7 @@ body {
     background-size: cover;
 
     /* posicionar o ponto central da imagem com o ponto central da tela */
-    background-position: 50%;    
+    background-position: 50%;
 
     /* espaçamento entre o conteúdo e a margem esquerda */
     padding-left: 50px;
@@ -157,7 +158,7 @@ body {
     transition: .5s;
 }
 
-.hero-link:hover{
+.hero-link:hover {
     background-color: #FBC334;
     border-color: #FBC334;
 }
@@ -180,7 +181,8 @@ body {
 }
 
 /********************** services ************************************/
-.services-container, .portfolio{
+.services-container,
+.portfolio {
     width: 95%;
     min-height: 75vh;
     /* border: 1px solid #000; */
@@ -192,7 +194,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-}   
+}
 
 
 .services-item {
@@ -230,12 +232,12 @@ body {
 .services-text {
     text-align: center;
     line-height: 28px;
-} 
+}
 
 .services-textTwo {
     text-align: center;
     line-height: 27px;
-} 
+}
 
 
 /************************ fim services ***********************/
@@ -265,7 +267,7 @@ body {
 }
 
 .rotation-left {
-    transform: rotate(-15deg);    
+    transform: rotate(-15deg);
 }
 
 .rotation-right {

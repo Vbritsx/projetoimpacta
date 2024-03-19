@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/************************ formulario ***********************/
+
+#tituloCadastroProdutos {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 7%;
+}
+
+#subCadastroProdutos {
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10%;
+}
+
+fieldset {
+    border: 0;
+}

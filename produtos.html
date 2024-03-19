@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Produtos</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="tituloCadastroProdutos">Cadastro de Produtos</h1>
+        <p id="subCadastroProdutos">Cadastre seus produtos</p>
+        <br>
+    </div>
+
+    <form>
+
+        <fieldset class="perguntas">
+
+            <div class="campo">
+                <label for="nomeProduto"><strong>Nome</strong></label>
+                <input type="text" name="nome" id="nomeProduto" required>
+            </div>
+            <div class="campo">
+                <br>
+                <label for="descricaoProduto"><strong>Descrição</strong></label>
+                <input type="textarea" rows=2 name="descricao" id="descricaoProduto">
+            </div>
+            <div class="campo">
+                <br>
+                <label for="pesoProduto"><strong>Peso</strong></label>
+                <input type="number" name="peso" id="pesoProduto" required>
+            </div>
+            <div class="campo">
+                <label for="unidadeDeMedida"><strong>Qual tipo de peso?</strong></label>
+                <select id="unidadeDeMedida">
+                    <option select disable value="">Selecione </option>
+                    <option>Quilograma</option>
+                    <option>Grama</option>
+                    <option>Miligrama</option>
+                </select>
+            </div>
+            <div class="campo">
+                <br>
+                <label for="unidadeProduto"><strong>Unidade</strong></label>
+                <input type="number" name="unidade" id="unidadeProduto">
+            </div>
+
+        </fieldset>
+        <button type="submit">Cadastrar Produto</button>
+
+    </form>
+
+</body>
+
+</html>
