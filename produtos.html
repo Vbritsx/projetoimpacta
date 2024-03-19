@@ -1,58 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="formulario.css">
-    <title>Produtos</title>
+
+    <!-- Link para o Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- link font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- link para a CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>Estoque Inteligente</title>
 </head>
 
 <body>
-    <div>
-        <h1 id="tituloCadastroProdutos">Cadastro de Produtos</h1>
-        <p id="subCadastroProdutos">Cadastre seus produtos</p>
-        <br>
+
+    <!-- header da página - imagem + título + menu navegação -->
+    <div class="header">
+        <!-- título -->
+        <!--- <h1 class="header-title"><i class="fab fa-html5 header-logo"></i> Estoque Inteligente</h1> -->
+
+        <!-- menu -->
+        <nav class="menu">
+            <ul>
+                <li class="menu-item"><a href="#inicio">Início</a></li>
+                <li class="menu-item"><a href="#produtos">Produtos</a></li>
+                <li class="menu-item"><a href="#estoque">Estoque</a></li>
+                <li class="menu-item"><a href="#sair">Sair</a></li>
+            </ul>
+        </nav>
     </div>
+    <!-- fim header página -->
 
-    <form>
+    <!-- hero -->
+    <div class="hero">
+        <div>
+            <br>
+            <h1 id="tituloCadastroProdutos">Cadastro de Produtos</h1>
+            <br>
+            <p id="subCadastroProdutos">Cadastre seus produtos</p>
+            <br>
+        </div>
 
-        <fieldset class="perguntas">
+        <form>
 
-            <div class="campo">
-                <label for="nomeProduto"><strong>Nome</strong></label>
-                <input type="text" name="nome" id="nomeProduto" required>
-            </div>
-            <div class="campo">
-                <br>
-                <label for="descricaoProduto"><strong>Descrição</strong></label>
-                <input type="textarea" rows=2 name="descricao" id="descricaoProduto">
-            </div>
-            <div class="campo">
-                <br>
-                <label for="pesoProduto"><strong>Peso</strong></label>
-                <input type="number" name="peso" id="pesoProduto" required>
-            </div>
-            <div class="campo">
-                <label for="unidadeDeMedida"><strong>Qual tipo de peso?</strong></label>
-                <select id="unidadeDeMedida">
-                    <option select disable value="">Selecione </option>
-                    <option>Quilograma</option>
-                    <option>Grama</option>
-                    <option>Miligrama</option>
-                </select>
-            </div>
-            <div class="campo">
-                <br>
-                <label for="unidadeProduto"><strong>Unidade</strong></label>
-                <input type="number" name="unidade" id="unidadeProduto">
-            </div>
+            <fieldset class="perguntas">
 
-        </fieldset>
-        <button type="submit">Cadastrar Produto</button>
+                <div class="campo">
+                    <label for="nomeProduto"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nomeProduto" required>
+                </div>
+                <div class="campo">
+                    <br>
+                    <label for="descricaoProduto"><strong>Descrição</strong></label>
+                    <input type="textarea" rows=2 name="descricao" id="descricaoProduto">
+                </div>
+                <div class="campo">
+                    <br>
+                    <label for="pesoProduto"><strong>Peso</strong></label>
+                    <input type="number" name="peso" id="pesoProduto" required>
+                </div>
+                <div class="campo">
+                    <label for="unidadeDeMedida"><strong>Qual tipo de peso?</strong></label>
+                    <select id="unidadeDeMedida">
+                        <option select disable value="">Selecione </option>
+                        <option>Quilograma</option>
+                        <option>Grama</option>
+                        <option>Miligrama</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <br>
+                    <label for="unidadeProduto"><strong>Unidade</strong></label>
+                    <input type="number" name="unidade" id="unidadeProduto">
+                </div>
 
-    </form>
+            </fieldset>
+            <button type="submit">Cadastrar Produto</button>
+
+        </form>
+        <!--  <h2 class="hero-title">Projeto Faculdade Impacta.</h2> -->
+    </div>
+    <!--fim hero -->
+
 
 </body>
-
-</html>
