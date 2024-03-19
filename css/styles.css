@@ -49,6 +49,7 @@ body {
 }
 
 .header-title {
+    justify-content: left;
     font-size: 32px;
     text-transform: uppercase;
 }
@@ -181,10 +182,10 @@ body {
 /********************** services ************************************/
 .services-container, .portfolio{
     width: 95%;
-    min-height: 90vh;
+    min-height: 75vh;
     /* border: 1px solid #000; */
     /* usamos margin com valor auto para centralizar a section  - USADO PARA CONTAINERS*/
-    margin: 20px auto;
+    margin: 30px auto;
 
     display: flex;
     /* padrão é não quebrar a linha - nowrap - MUDAR PARA WRAP E ASSIM QUEBRAMOS A LINHA  */
@@ -196,7 +197,7 @@ body {
 
 .services-item {
     width: 30%;
-    height: 300px;
+    height: 350px;
     border: 1px solid #ccc;
     margin: 10px 0;
     display: flex;
@@ -231,12 +232,19 @@ body {
     line-height: 28px;
 } 
 
+.services-textTwo {
+    text-align: center;
+    line-height: 27px;
+} 
+
+
 /************************ fim services ***********************/
 
 /* portfolio */
 .portfolio {
     background-color: var(--bg-primary);
     width: 100%;
+    min-height: 85%;
 }
 
 .portfolio-image {
